@@ -23,7 +23,6 @@ def get_env_vars() -> dict:
         app_logger.error(f"An Error occured: {exp}")
     return api_call_parms
 
-
 def get_api_data(api_call_parms: dict) -> pd.DataFrame:
     '''
     This function call Weather API to collect the weaher forcat every 3 hours for 5 days

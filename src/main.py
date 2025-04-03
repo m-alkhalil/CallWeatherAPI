@@ -123,7 +123,5 @@ def main():
     #print(weather_data_df)
     plot_save_dataf(weather_data_df)
 
-    ...
-
 if __name__ == "__main__":
     main()
